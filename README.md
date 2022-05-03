@@ -1,1 +1,2 @@
 # Desafios-7DaysOfCode
+Este repositório integra desafios propostos pela escola de programação Alura. Esse projeto de ensino deles se chama 7DaysOfCode. No repositório consta mais de uma sequência de desafios. Ao final eles serão integrados em uma única página de apresentação. 
