@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio-JSDOM</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="logica.js"></script>
 </head>
 
@@ -14,19 +17,26 @@
     <header>
 
     </header>
-    <main>
-        <h1>Cadastro de pessoas</h1>
-        <form class="form js-form">
-            <label for="name">
-                Nome
-                <input class="form-field js-field" id="name" maxlength="120" name="name" required type="text">
-            </label>
-            <label for="birth-date">
-                Data de Nascimento
-                <input class="form-field js-field" id="birth-date" name="birth-date" required type="date">
-            </label>
-            <button type="submit">Salvar</button>
-        </form>
+    <main>        
+            <div id="formulario">
+                <h1>Cadastro de pessoas</h1>
+                <form class="form js-form">
+                    <div>
+                        <label for="name">
+                            Nome
+                            <input class="form-field js-field" id="name" minlength="3" maxlength="120" name="name" required type="text" placeholder="João Silva">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="birth-date">
+                            Data de Nascimento
+                            <input class="form-field js-field" id="birth-date" name="birth-date" required type="date">
+                        </label>
+                    </div>
+                    <button type="submit">Salvar</button>
+                </form>
+            </div>
+        
 
     </main>
     <footer>
